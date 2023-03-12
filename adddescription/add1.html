@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="../New folder/style.css">
+    <script src="https://use.fontawesome.com/3fe729cdd7.js"></script>
+
+    
+</head>
+<body>
+    <!-- top icons  -->
+    <div class="header container">
+        <span><h3><a class="olx" href="">OLX</a> </h3></span>
+        <span class="top"><a href=""><i class="fa fa-car" aria-hidden="true">&nbsp;&nbsp; Motors</i></a> </span>
+        <span class="top"><a href=""><i class="fa fa-building-o" aria-hidden="true">&nbsp;&nbsp;Property</i></a> </span>
+    </div>
+    
+    <!-- main navbar  -->
+   
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.olx.com.pk/assets/iconOLXLogin_noinline.93e8a1a9cf50902ba5250814f57810ff.svg" alt="this is an img" width="70px" height="70px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- country search -->
+         <div class="countryselect">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+   <li class="countrybar"><button type="submit" id="iconofsearch"  ><img  width="30px" height="30px" src="./magnifying-glass.png" alt="this is an img"></button><input type="search" name="cars" id="typesearch"  placeholder="Pakistan">
+  <select name="cars" id="dropbox">
+    <option value=""></option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="India">India</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Maleshia">Maleshia</option>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Indoneshia">Indoneshia</option>
+    <option value="Nepal">Nepal</option>
+  </select>
+         </li>
+         </div>
+           
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 searchbar" type="search" placeholder="Find Cars,Mobiles Phones And Others..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+          <div class="buttons">
+            <button class="logoutbutton" onclick="logout()">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+  <!-- Slide show picuture -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.olx.com.pk/thumbnails/289009991-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+<!-- add1 details -->
+<div class="addcontainer">
+<div class="alignkerocenter">
+ <div id="carouselExampleIndicators" class="carousel slide  slidebutton" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner addimg ">
+    <div class="carousel-item active ">
+      <img  src="https://images.olx.com.pk/thumbnails/289471859-240x180.webp" width="700px" height="500px" class="d-block w-100 setimg"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.olx.com.pk/thumbnails/289471860-400x300.webp" width="700px" height="500px" class="d-block w-100 setimg" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.olx.com.pk/thumbnails/289471861-400x300.webp" width="700px" height="500px" class="d-block w-100 setimg" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ </div>
+</div>
+</div>
+<!-- add end -->
+<!-- description -->
+<div class="description">
+  
+  <p>
+    <h1>Description</h1> 
+    original IPhone 6S available Non pta 4 month sim working Only 5500 all Pakistan deliverry available Cash on deliverry Just deliverry chargs pay krny ha Ap ne Come whstapp******
+
+  </p>
+  <p><strong> MY ifone for sale panel change he baki ok he </strong></p>
+  <h2>RS=10000PKR</h2>
+</div>
+
+<!--  info div  -->
+<div class="infodiv">
+<div class="col-12 p-3 mb-2 d-flex flex-column justify-content-end infodivset" style="border: #3b4a6b solid 2px; border-radius: 5px;">
+  <h3 class="font-weight-light pb-0 mb-2 ml-0 pl-0">Seller Description</h3>
+  <div class="d-flex flex-row align-content-center">
+    <img src="https://olxwithbootstrap.netlify.app/images/seller.png" width="60px" alt="" srcset="">
+    <span>
+      <div class="d-flex flex-column justify-content-end"><span>Chaudhry Samie Tahir</span> <small>Member
+          since 2022</small></div>
+    </span>
+  </div>
+  <p class="pt-0 m-0 pl-2 mt-0 text-secondary"><button class="btn mt-2 btn-md btn-primary btn-block postNow-btn font-weight-bold"> <a class="chatwith" href="https://www.facebook.com/chaudhry.samietahir">Chat with seller</a> </button></p>
+</div>
+</div>
+<!-- maps embeded  -->
+
+ <div class="mapsembeded">
+  <div>
+  <h3>Post Posted:</h3>
+  <h4>  In <strong>Karachi.</strong></h4>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14473.738330933998!2d66.9630595!3d24.  9172611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1664909459354!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+
+
+ <div class=" my-5">
+ <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-DARK"
+            style="background-color: #ebeeef"
+            >
+      
+      <div class="container p-4 pb-0">
+        <section class="">
+           <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                OLX
+              </h6>
+              <p>
+                OLX is the Pakistan best selling and purchusing website where you can buy and sell every product.Hurry up join US.
+              </p>
+            </div>
+          <hr class="w-100 clearfix d-md-none" />
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Popular Categories</h6>
+              <p>
+                <a class="text-secondary">Cars</a>
+              </p>
+              <p>
+                <a class="text-secondary">Motor Bike</a>
+              </p>
+              <p>
+                <a class="text-secondary">Furniture</a>
+              </p>
+              <p>
+                <a class="text-secondary">Mobiles and ELECTRONICS</a>
+              </p>
+            </div>
+            <hr class="w-100 clearfix d-md-none" />
+  
+         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Useful links
+              </h6>
+              <p>
+                <a class="text-secondary">Chaudhry Samie</a>
+              </p>
+              <p>
+                <a class="text-secondary">Become an Affiliate</a>
+              </p>
+              <p>
+                <a class="text-secondary">Shipping Rates</a>
+              </p>
+              <p>
+                <a class="text-secondary">Help</a>
+              </p>
+            </div>
+  
+         <hr class="w-100 clearfix d-md-none" />
+  
+             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fa fa-home"></i> kARACHI , PK</p>
+              <p><i class="fa fa-envelope-o"></i> badshayahoopakistan@gmail.com</p>
+              <p><i class="fa fa-phone"></i> +92 3012303563</p>
+              <p><i class="fa fa-print"></i> +92 3172582875</p>
+              
+            </div>
+         </div>
+          </section>
+    <hr class="my-3">
+    </div>
+          </div>
+      </section>
+              </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../24SEPTEMBER2022.js"></script>
+
+
+</body>
+</html>
